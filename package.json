@@ -1,0 +1,23 @@
+{
+  "name": "private-pkg-follower",
+  "version": "0.1.0",
+  "description": "Couch follower to determine which packages are private",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/private-pkg-follower.git"
+  },
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexdrew/private-pkg-follower/issues"
+  },
+  "homepage": "https://github.com/nexdrew/private-pkg-follower#readme",
+  "dependencies": {
+    "changes-stream": "^2.1.0",
+    "got": "^6.6.3"
+  }
+}
